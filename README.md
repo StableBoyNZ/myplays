@@ -9,11 +9,11 @@ Generaly consists of templates however code meant to be universal
 a. git init
 b. git add . # Stages all new and modified files and directories
 c. git commit -m 'Initial Project Version'
-d. git remote add origin https://github.com/derekbanas/SimpleFragment.git
+d. git remote add origin URL
 e. git push origin master
 5. git remote -v # Lists all remotes and their URLs
 6. git fetch origin # Gets data from the remote, but it doesn't merge changes with your work
-7. git pull https://github.com/derekbanas/SimpleFragment.git
+7. git pull URL
 a. Pulls all changes and saves them to your directory
 8. How to push changes to GitHub ----------------
 a. I add .gitignore for Android on my local machine
@@ -39,4 +39,4 @@ I. git config --global alias.co commit
 II. Now you can type git co to commit
 i. Clone a GitHub Repository
 I. Go to the directory you want to use
-II. git clone https://github.com/derekbanas/google-api-nodejs-client.git
+II. git clone URL
